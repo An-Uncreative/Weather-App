@@ -127,18 +127,9 @@ https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=m
 - [MDN: Async/Await](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises)
 - [Weather Icon Sets](https://openweathermap.org/weather-conditions)
 
-## 🔒 API Key Security
-
-**Important:** Never commit API keys to version control. Best practices:
-
-1. Use environment variables
-2. Use `.env` files (added to `.gitignore`)
-3. Use backend proxy for production
-4. Rotate keys regularly
-
 ## 👤 Author
 
-Created as part of fullstack development bootcamp learning path
+Created as part of a personal fullstack development bootcamp learning path
 
 ## 📄 License
 
