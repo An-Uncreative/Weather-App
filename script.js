@@ -48,6 +48,13 @@ document
     }
   });
 
+// Reset to default state when search box is cleared
+document.querySelector(".search-bar").addEventListener("input", function () {
+  if (this.value.trim() === "") {
+    document.querySelector(".display").style.display = "none";
+  }
+});
+
 document.querySelector(".title").addEventListener("click", function () {
   document.querySelector(".display").style.display = "none";
   document.querySelector(".search-bar").value = "";
