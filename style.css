@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    color: #004d40;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: papayaWhip;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-right: 5px;
+    height: 40px;
+}
+
+.search-button {
+    background: oklab(75.024% -0.01426 0.02334);
+    border: none;
+    border-radius: 50%;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+.search-button img {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 2px;
+    right: 2px;
+}
+
+.weather{
+    text-align: center;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.detail-item{
+   display: flex;
+}
+
+.detail-icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    filter: invert(58%) sepia(100%) saturate(1850%) hue-rotate(360deg) brightness(102%) contrast(104%);
+}
+
+.search-bar{
+    font-family: inherit;
+    font-size: 16px;
+}
+
+.display{
+    display: none;
+}
+
+.title{
+    cursor: pointer;
+}
