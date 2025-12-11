@@ -3,6 +3,7 @@
 ## 🌤️ Project Overview
 
 A dynamic weather application that displays real-time weather information for any city. Fetches live data from OpenWeatherMap API and presents it with weather icons and detailed metrics.
+[check it out](https://an-uncreative.github.io/Weather-App/)
 
 ## ✨ Features
 
